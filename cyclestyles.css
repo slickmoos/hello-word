@@ -1,0 +1,122 @@
+/*I hearby declare this was written by Moustapha Toure*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+	
+	
+}
+#b_text h1:hover{
+	color: black;
+	
+}
+nav{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	
+	
+}
+
+nav li{
+	display: flex;
+	justify-content: space-around;
+	list-style-position: inside;
+	list-style-type: none;
+	margin: 10px 0px 0px 10px;
+	padding: 5px;
+	background-color: #bcd;
+	border-radius: 0px 10px 0px 0px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 0px;
+	border-left: 2px solid black;
+	font-weight: bold;
+	
+}
+a:visited{
+	color: white;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+nav ul{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+a:hover {
+	color: black;
+}
+
+header img{
+	width: 100%;
+	height: 90%;
+	margin-bottom: -5px;
+}
+
+
+
+
+#container {
+	min-width: 868px;
+	width: 80%;
+	margin: 0px 10%;
+	
+
+}
+#aboutus{
+	margin-top: 1px;
+	float: left;
+	width: 68%;
+	text-indent: 50px;
+}
+#aboutus p{
+	margin-top: 10px;
+}
+
+#aboutus img{
+	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+}
+figure {
+  vertical-align: middle;
+  float: left;
+  margin-right: 5px;
+
+}
+.caption_mid {
+  text-align: center;
+  margin-bottom: 5px;
+  padding-right: 22px;
+}
+
+#tripinfo{
+	
+	float: right; 
+	width: 260px;
+	height: 700px;
+	background-color: #bcd;
+	text-indent: 50px;
+}
+#index a:visited{
+	color: black;
+	text-decoration: underline;
+}
+footer{
+	font-weight: bold;
+	clear: both;
+	text-align: center;
+	border-top: 2px solid black;
+	width: 100%;
+	padding-top: 10px;
+}
